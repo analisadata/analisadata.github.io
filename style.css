@@ -1,0 +1,98 @@
+.jumbotron {
+  background-color: #006863;
+  color: azure;
+}
+
+.navbar {
+  background-color: #006863;
+}
+
+#logo {
+  margin-top: 2em;
+  max-height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(56, 41, 41, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+  margin-top: 7rem;
+}
+
+#harga {
+  background-color: #006863;
+}
+#harga h2 {
+  color: #f0ffff;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+#harga h4 {
+  color: azure;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+#katalog {
+  margin-bottom: 5rem;
+}
+.card-header,
+.card-title {
+  text-align: center;
+  justify-content: center;
+}
+
+div.card {
+  box-shadow: 0 4px 8px 0 rgba(56, 41, 41, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+#contact h2 {
+  margin-bottom: 3rem;
+}
+
+#price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.tele {
+  background-color: teal;
+}
+
+#faq {
+  margin-top: 5rem;
+}
+
+#faq h1 {
+  margin-bottom: 2rem;
+}
+
+.accordion-collapse {
+  background-color: rgb(238, 238, 238);
+}
+
+.kaki {
+  background-color: #006863;
+}
+
+.navbar-nav a:hover {
+  padding: 5px;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    left: 100%;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #006863;
+    transition: visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  .offcanvas-collapse.open {
+    visibility: visible;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
